@@ -1,0 +1,33 @@
+body{
+    background-color:rgb(189, 189, 242);
+    
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h1{
+    text-align: center;
+   
+
+}
+.pwdBody{
+    margin-top: 50px;
+    padding-top: 150px;
+   
+    background-color:green;
+    
+    text-align: center;
+    margin-top: none;
+    border: 5px solid #444444;
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+#charNum{
+    margin-top: 50px;
+    size: 75px;
+}
+#copyPw{
+    text-align: center;
+   
+}
