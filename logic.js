@@ -29,8 +29,8 @@ function password(l, characters){
     }
     return pwd;
 }
-function copyPassword(){
-    document.getElementById('copyPw').select();
-    document.execCommand('copy')
-    alert('Password copied to clipboard')
-}
+
+
+copyPw.addEventListener('click', function(){
+    alert('Password copied to clipboard!')
+})
