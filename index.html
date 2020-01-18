@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <script defer src="logic.js"></script>
     <title>Password generator</title>
 </head>
 <body>
+    <div class='container'>
     <div class="pwdBody">
-    <h1>This is a password generator!</h1>
+    <h1> Password Generator!</h1>
         <div class="pwdBox">
-    How many characters?<input type="number" id="charNum" value="12" min="8" max="100">
+    <div id='title'>How many characters?</div><input type="number" id="charNum" value="12" min="8" max="100">
     <br>
-    Number <input type="checkBox" id="num">
-    Sumbol <input type="checkBox" id="sym">
+    <div id='title'>Number</div> <input type="checkBox" id="num">
+    <div id='title'>Symbol</div> <input type="checkBox" id="sym">
     <br>
-    <button id="Submit">Submit</button>
+    <button id="Submit">Generate Password</button>
     <br>
-    your Password: <input type="text" id="yourPw">
+    <div id='title'>Your Password:</div> <input type="text" id="yourPw">
     <button id="copyPw">Copy to clipboard</button>
         </div>
+    </div>
     </div>
 
     
