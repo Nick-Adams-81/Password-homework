@@ -32,5 +32,7 @@ function password(l, characters){
 
 
 copyPw.addEventListener('click', function(){
+    
+    
     alert('Password copied to clipboard!')
 })
